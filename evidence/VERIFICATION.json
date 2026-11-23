@@ -1,0 +1,66 @@
+{
+  "verification_kind": "staging developer rerun of sanitized candidate; not independent sign-off",
+  "source_baseline_manifest_sha256": "d9e65ed02d25135790cf4f665534084fcba118c73f24653166707efdc0f4fa2b",
+  "command": "sh check-local.sh",
+  "command_exit_code": 0,
+  "go_version": "go1.27.4",
+  "development_test_functions": 53,
+  "copied_independent_driver_test_functions": {
+    "p1-audit-repair": 3,
+    "p1-remaining": 3,
+    "p1-local-gates": 3
+  },
+  "race_enabled": true,
+  "module_readonly": true,
+  "vet_all_modules_exit_code": 0,
+  "demos": {
+    "original": {
+      "exit_code": 0,
+      "ended_and_drained": true
+    },
+    "adoption": {
+      "exit_code": 0,
+      "ended_and_drained": true
+    },
+    "reject": {
+      "exit_code": 0,
+      "ended_and_drained": true
+    },
+    "queued-revoke": {
+      "exit_code": 0,
+      "ended_and_drained": true
+    },
+    "queued-control": {
+      "exit_code": 0,
+      "ended_and_drained": true
+    }
+  },
+  "dependency_review": {
+    "external_module_or_package_dependencies": [],
+    "local_graph_package_counts": {
+      "p1": 105,
+      "p1-audit-repair": 1,
+      "p1-remaining": 1,
+      "p1-local-gates": 1
+    },
+    "standard_package_count": 103,
+    "no_toolchain_or_binary_bundled": true
+  },
+  "secrets_and_privacy_scan": {
+    "categories": [
+      "known-personal-label",
+      "user-runtime-absolute-path",
+      "private-key",
+      "cloud-access-key",
+      "github-token",
+      "api-token",
+      "credential-assignment",
+      "ip-address",
+      "private-document-link"
+    ],
+    "findings": [],
+    "scope": "all candidate text files, plus manual static review; no guarantee of complete authorship or host-level monitoring"
+  },
+  "license_review": "Apache-2.0 standard text added for the approved phase candidate; no new third-party code or assets; this license-text review does not establish complete authorship or chain of title",
+  "publication_status": "local staging only"
+}

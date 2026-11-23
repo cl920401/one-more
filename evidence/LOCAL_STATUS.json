@@ -1,0 +1,53 @@
+{
+  "source_build_manifest_sha256": "d9e65ed02d25135790cf4f665534084fcba118c73f24653166707efdc0f4fa2b",
+  "status_basis": "bounded summaries of source-build independent local QA; internal raw reports excluded",
+  "candidate_is_sanitized_derivative": true,
+  "closed_local_items": [
+    "P1-02",
+    "P1-03"
+  ],
+  "incomplete_items": [
+    {
+      "id": "P1-01",
+      "gap": "complete resource and quota control evidence"
+    },
+    {
+      "id": "P1-04",
+      "gap": "present but forbidden synthetic attachment and complete unmet-condition records"
+    },
+    {
+      "id": "P1-05",
+      "gap": "in-transit boundary and remaining visibility surfaces"
+    },
+    {
+      "id": "P1-06",
+      "gap": "unknown results, verification/retry, idempotency and actual costs"
+    },
+    {
+      "id": "P1-07",
+      "gap": "controlled forged output, edits and initial/final differences"
+    },
+    {
+      "id": "P1-08",
+      "gap": "full identity and complete privacy surfaces"
+    },
+    {
+      "id": "P1-09",
+      "gap": "per-condition human completion and separate quality/promotion records"
+    },
+    {
+      "id": "P1-10",
+      "gap": "method sharing/revocation and independent reuse"
+    }
+  ],
+  "additional_source_QA_branches": [
+    "explicit refusal",
+    "queued pre-send revocation with positive control",
+    "separate already-sent late result"
+  ],
+  "real_model_calls_executed": false,
+  "on_site_trials_executed": false,
+  "formal_first_trial_executed": false,
+  "deployed": false,
+  "candidate_independent_signoff": false
+}
